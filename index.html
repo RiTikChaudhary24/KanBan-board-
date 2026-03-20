@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+<body class="w-full relative h-screen bg-neutral-950 ">
+    <div class="w-7xl h-screen mx-auto shadow-2xl flex flex-col shadow-neutral-800 rounded-br-2xl rounded-bl-2xl 2xl border-r-2 border-l-2 border-neutral-800 bg-neutral-900">
+
+        <div class="h-40 w-full flex items-center justify-center ">
+            <h1 class="text-7xl font-poppins bg-clip-text text-transparent bg-linear-to-br text-shadow-2xl from-neutral-100 via-neutral-400 to-neutral-50 ">KaN-BaN Board </h1>
+        </div>
+
+        <div class="  divide-neutral-800 divide-x-2 divide-dashed flex-1 grid grid-cols-3">
+            
+            <div class=" flex w-full flex-col ">
+
+                <div class="h-30 items-center justify-center  flex w-full">
+                    <div class="p-2 bg-linear-to-br from-taupe-200 shadow-box  pointer-none:select-none via-taupe-500 to-taupe-700 rounded-lg">
+                        <div class="px-4 border-2 border-taupe-900 py-2 font-bold font-poppins bg-linear-to-br rounded-lg text-taupe-950 from-taupe-300 via-taupe-500 to-taupe-700 text-2xl">TO-DO !!</div>
+                    </div>
+                </div>
+
+                <div id="todoDiv"  class= "flex-1 grid grid-cols-2 relative "></div>
+
+            </div>
+            
+            <div class="flex  flex-col">
+
+                <div class="h-30 items-center justify-center flex w-full">
+                    <div class="p-2 bg-linear-to-br shadow-box  pointer-none:select-none from-sky-300 via-sky-600 to-sky-800 rounded-lg">
+                        <div class="px-4 border-2 border-sky-900 py-2 font-bold font-poppins bg-linear-to-br rounded-lg text-sky-950 from-sky-300 via-sky-600 to-sky-800 text-2xl">Doing :/</div>
+                    </div>
+                </div>
+
+                <div id="doingDiv" class= "flex-1 grid grid-cols-2  relative"></div>
+
+            </div>
+            
+            <div  class="flex flex-col">
+
+                <div class="h-30 items-center justify-center flex w-full">
+                    <div class="p-2 bg-linear-to-br from-emerald-200 shadow-box pointer-none:select-none via-emerald-600 to-emerald-800 rounded-lg">
+                        <div class="px-4 border-2 border-emerald-900 py-2 font-bold font-poppins bg-linear-to-br rounded-lg text-emerald-950 from-emerald-300 via-emerald-600 to-emerald-800 text-2xl">Done ~.~</div>
+                    </div>
+                </div>
+
+                <div id="doneDiv" class="flex-1 grid grid-cols-2 relative"></div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="absolute bottom-2 right-2 flex flex-col items-end text-shadow-2xs shadow-neutral-100 animate-pulse font-manrope z-100 text-neutral-400">
+        <h1 class="">Single Click to Delete the note</h1>
+        <h1  >Double Click in todo sec to make note</h1>
+        <h1  >You can Drag & Drop</h1>
+
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
